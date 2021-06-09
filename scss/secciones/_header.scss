@@ -1,0 +1,145 @@
+/*Header*/
+
+$base: #0f1923;
+$white: #ece8e1;
+$pink: #ff4655;
+$height: 54px;
+$transition: 0.3s ease-out all;
+
+@import '../functions/extends';
+@import '../base/variables';
+
+header nav{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-bottom: black 2px solid;
+    div {
+        a img{
+            max-width: 300px;
+        }
+
+        button{
+            background-color: white!important;
+        }
+        div ul{
+            margin-left: -8em;
+            li {    
+                @extend %flexbox;
+                ul li a{
+                    color: black!important;
+                    background-color: $white;
+                    &:hover{
+                        background-color: $mi-azul-principal!important;
+                    }
+                }
+                a {
+                    width: 100%!important;
+                    max-width: 240px!important;
+                    height: 70px!important;
+                    padding: 8px!important;
+                    font-size: 0.8rem!important;
+                    font-weight: 900!important;
+                    color: $mi-azul-principal!important;
+                    text-align: center!important;
+                    text-transform: uppercase!important;
+                    text-decoration: none!important;
+                    box-shadow: 0 0 0 1px inset rgba($white, 0.6)!important;
+                    position: relative!important;
+                    margin: 10px 0!important;
+                   
+                    &:after,
+                    &:before {
+                      content: ""!important;
+                      width: 1px!important;
+                      position: absolute!important;
+                      height: 8px!important;
+                      background: $base!important;
+                      left: 0!important;
+                      top: 50%!important;
+                      transform: translateY(-50%)!important;
+                    }
+                    &:before {
+                      right: 0!important;
+                      left: initial!important;
+                    }
+                    p {
+                      margin: 0!important;
+                      height: $height!important;
+                      line-height: $height!important;
+                      box-sizing: border-box!important;
+                      z-index: 1!important;
+                      left: 0!important;
+                      width: 100%!important;
+                      position: relative!important;
+                      overflow: hidden!important;
+                      span.base {
+                        box-sizing: border-box!important;
+                        position: absolute!important;
+                        z-index: 2!important;
+                        width: 100%!important;
+                        height: 100%!important;
+                        left: 0!important;
+                        border: 1px solid $mi-azul-principal!important;
+                        &:before {
+                          content: ""!important;
+                          width: 2px!important;
+                          height: 2px!important;
+                          left: -1px!important;
+                          top: -1px!important;
+                          background: $base!important;
+                          position: absolute!important;
+                          transition: $transition!important;
+                        }
+                      }
+                      span.bg {
+                        left: -5%!important;
+                        position: absolute!important;
+                        background: $mi-azul-principal!important;
+                        width: 0!important;
+                        height: 100%!important;
+                        z-index: 3!important;
+                        transition: $transition!important;
+                        transform: skewX(-10deg)!important;
+                      }
+                      span.text {
+                        padding: 0 10px!important;
+                        z-index: 4!important;
+                        width: 100%!important;
+                        height: 100%!important;
+                        position: relative!important;
+                        left: 0!important;
+                        top: 0!important;
+                        &:after {
+                          content: ""!important;
+                          width: 4px!important;
+                          height: 4px!important;
+                          right: 0!important;
+                          bottom: 0!important;
+                          background: $base!important;
+                          position: absolute!important;
+                          transition: $transition!important;
+                          z-index: 5!important;
+                        }
+                      }
+                    }
+                    &:hover {
+                      color: $white!important;
+                      span.bg {
+                        width: 110%!important;
+                      }
+                      span.text:after {
+                        background: $white!important;
+                      }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+// .nav-link{
+//     color: white!important;
+// }
+
+
+

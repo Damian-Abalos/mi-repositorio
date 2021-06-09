@@ -1,0 +1,60 @@
+/*youtubers*/
+@import '../functions/extends';
+@import '../base/variables';
+@import '../functions/mixins';
+
+#youtubers{
+    h2{
+        @include encabezados(white, $mi-azul-principal, white);
+    }
+    div{
+        margin: 0 auto;
+        div{
+            padding: 1em;
+            margin-top: 2em;
+            max-width: 500px;
+            div{
+                background-color: $color-habilidades;
+                img{
+                    border: 3px black solid;
+                    border-radius: 10px;
+                }
+                .card-body{
+                    border: 3px black solid;
+                    border-radius: 10px;
+                    h3{
+                        font-family: 'Orbitron', sans-serif;
+                        font-size: 1.5em;
+                        color: white;
+                    }
+                    div{
+                        text-align: center;
+                    }
+                }
+                div {
+                    padding: 10px;
+                    background-color: $mi-azul-principal;
+                    a {
+                        margin: 2px;
+                        img{
+                            border: 2px white solid;
+                            background-color: black;
+                            border-radius: 25%;
+                            width: 30%;
+                            padding: 3px;
+                            transition: all 0.2s;
+
+                            &:hover{
+                                background-color: lighten(#000000, 30%);
+                            }
+                        }
+                    }
+                    
+                    
+                }
+                 
+            } 
+            
+        }
+    }
+}

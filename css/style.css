@@ -1,0 +1,536 @@
+@charset "UTF-8";
+body {
+  background-color: #000;
+}
+
+/* Variables */
+/* LISTA COLORES*/
+/* LISTA COLORES*/
+/* Extends */
+#line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mixin*/
+/*H1*/
+/* Variables */
+/* LISTA COLORES*/
+#titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto 2em auto;
+  padding: 1em;
+  background-color: #056CF2;
+  border-top: white 3px solid;
+  border-bottom: white 3px solid;
+}
+#titulo .arrow-gif {
+  max-width: 200px;
+  max-height: 200px;
+  position: relative;
+  top: -15px;
+}
+#titulo .spray-sova {
+  max-width: 540px;
+  max-height: 200px;
+}
+#titulo .drone {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/*Header*/
+/* Extends */
+#line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Variables */
+/* LISTA COLORES*/
+header nav {
+  background-color: #000000;
+  color: white;
+  border-bottom: black 2px solid;
+}
+header nav div a img {
+  max-width: 300px;
+}
+header nav div button {
+  background-color: white !important;
+}
+header nav div div ul {
+  margin-left: -8em;
+}
+header nav div div ul li ul li a {
+  color: black !important;
+  background-color: #ece8e1;
+}
+header nav div div ul li ul li a:hover {
+  background-color: #056CF2 !important;
+}
+header nav div div ul li a {
+  width: 100% !important;
+  max-width: 240px !important;
+  height: 70px !important;
+  padding: 8px !important;
+  font-size: 0.8rem !important;
+  font-weight: 900 !important;
+  color: #056CF2 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  box-shadow: 0 0 0 1px inset rgba(236, 232, 225, 0.6) !important;
+  position: relative !important;
+  margin: 10px 0 !important;
+}
+header nav div div ul li a:after, header nav div div ul li a:before {
+  content: "" !important;
+  width: 1px !important;
+  position: absolute !important;
+  height: 8px !important;
+  background: #0f1923 !important;
+  left: 0 !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+header nav div div ul li a:before {
+  right: 0 !important;
+  left: initial !important;
+}
+header nav div div ul li a p {
+  margin: 0 !important;
+  height: 54px !important;
+  line-height: 54px !important;
+  box-sizing: border-box !important;
+  z-index: 1 !important;
+  left: 0 !important;
+  width: 100% !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+header nav div div ul li a p span.base {
+  box-sizing: border-box !important;
+  position: absolute !important;
+  z-index: 2 !important;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0 !important;
+  border: 1px solid #056CF2 !important;
+}
+header nav div div ul li a p span.base:before {
+  content: "" !important;
+  width: 2px !important;
+  height: 2px !important;
+  left: -1px !important;
+  top: -1px !important;
+  background: #0f1923 !important;
+  position: absolute !important;
+  transition: 0.3s ease-out all !important;
+}
+header nav div div ul li a p span.bg {
+  left: -5% !important;
+  position: absolute !important;
+  background: #056CF2 !important;
+  width: 0 !important;
+  height: 100% !important;
+  z-index: 3 !important;
+  transition: 0.3s ease-out all !important;
+  transform: skewX(-10deg) !important;
+}
+header nav div div ul li a p span.text {
+  padding: 0 10px !important;
+  z-index: 4 !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+header nav div div ul li a p span.text:after {
+  content: "" !important;
+  width: 4px !important;
+  height: 4px !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background: #0f1923 !important;
+  position: absolute !important;
+  transition: 0.3s ease-out all !important;
+  z-index: 5 !important;
+}
+header nav div div ul li a:hover {
+  color: #ece8e1 !important;
+}
+header nav div div ul li a:hover span.bg {
+  width: 110% !important;
+}
+header nav div div ul li a:hover span.text:after {
+  background: #ece8e1 !important;
+}
+
+/* Seccion 1 - Descripcion del agente*/
+/* Variables */
+/* LISTA COLORES*/
+/*SOVA*/
+h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+#descripcion {
+  background-image: url(../images/fondo-descripcion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#descripcion div img {
+  width: 30em;
+}
+#descripcion div div h2 {
+  color: white;
+  margin: 1em 0;
+}
+#descripcion div div h3 {
+  color: white;
+  margin: 1em 0;
+}
+#descripcion div div p {
+  color: white;
+  margin: 1em 0;
+}
+
+/* seccion 2 - Habilidades */
+/* Extends */
+#line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Variables */
+/* LISTA COLORES*/
+/*Mixin*/
+#habilidades h2 {
+  color: black;
+  background-color: white;
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
+  padding: 1em;
+}
+@media (max-width: 767px) {
+  #habilidades ul {
+    display: none;
+  }
+}
+#habilidades li {
+  width: 220px;
+  max-width: 220px;
+  height: 220px;
+  max-height: 220px;
+  box-shadow: 0 0 0 110px inset, 0 0 5px grey;
+  transition: box-shadow 1s;
+  float: left;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#habilidades li::after {
+  width: 90%;
+  height: 90%;
+  display: block;
+  white-space: pre;
+  font: 15pt "sigmar one";
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  transition: opacity 1s 0.5s;
+}
+#habilidades li:hover {
+  box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
+  transition: box-shadow 1s;
+}
+#habilidades li:hover::after {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#proyectil-electrico {
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltebf4f748f87b2222/5eaf85dc4398082ffe24018f/TX_Sova_Q.png);
+  color: rgba(38, 62, 197, 0.9);
+}
+#proyectil-electrico::after {
+  content: "Proyectil eléctrico";
+}
+
+#proyectil-rastreador {
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5084114604f20525/5eaf85b108d37e6d82ef74ef/TX_Sova_E.png);
+  color: rgba(38, 62, 197, 0.9);
+}
+#proyectil-rastreador::after {
+  content: "Proyectil rastreador";
+}
+
+#dron-buho {
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt74a6f56b5c37edb5/5eaf85b1f66b2515dea76b26/TX_Sova_C.png);
+  color: rgba(38, 62, 197, 0.9);
+}
+#dron-buho::after {
+  content: "Dron buho";
+}
+
+#furia-del-cazador {
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5515bdb07fabe98/5eaf85b1b8a6356e4ddc1001/TX_Sova_X.png);
+  color: rgba(38, 62, 197, 0.9);
+}
+#furia-del-cazador::after {
+  content: "Furia del cazador";
+}
+
+/* Carousel*/
+.carousel-habilidades {
+  background-color: #000;
+}
+.carousel-habilidades h5 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  background-color: rgba(32, 32, 32, 0.911);
+}
+.carousel-habilidades p {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  background-color: rgba(68, 68, 68, 0.808);
+  color: white;
+  margin-bottom: 2em;
+}
+.carousel-habilidades video {
+  padding: 0 10%;
+  max-height: 675px;
+}
+
+/* Iconos en indicadores del carousel */
+.carousel-indicators [data-bs-target]:nth-child(1) {
+  height: 30px !important;
+  padding: 1px !important;
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltebf4f748f87b2222/5eaf85dc4398082ffe24018f/TX_Sova_Q.png) !important;
+  background-color: #000;
+  background-size: cover;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(2) {
+  height: 30px !important;
+  padding: 1px !important;
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5084114604f20525/5eaf85b108d37e6d82ef74ef/TX_Sova_E.png) !important;
+  background-color: #000;
+  background-size: cover;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(3) {
+  height: 30px !important;
+  padding: 1px !important;
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt74a6f56b5c37edb5/5eaf85b1f66b2515dea76b26/TX_Sova_C.png) !important;
+  background-color: #000;
+  background-size: cover;
+}
+
+.carousel-indicators [data-bs-target]:nth-child(4) {
+  height: 30px !important;
+  padding: 1px !important;
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5515bdb07fabe98/5eaf85b1b8a6356e4ddc1001/TX_Sova_X.png) !important;
+  background-color: #000;
+  background-size: cover;
+}
+
+/* Seccion 3 - Line ups*/
+/* Extends */
+#line-ups div div a, #line-ups div div, #line-ups div, header nav div div ul li, #habilidades li, #habilidades li::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mixin*/
+/* Variables */
+/* LISTA COLORES*/
+#line-ups {
+  background-color: black;
+}
+#line-ups h2 {
+  color: white;
+  background-color: #056CF2;
+  border-top: white 3px solid;
+  border-bottom: white 3px solid;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: white 2px solid;
+  text-align: center;
+}
+#line-ups div {
+  margin: 5px 0;
+}
+#line-ups div div {
+  background-color: #c8c8c8;
+  padding: 0.5em 1em;
+  border: black solid 3px;
+  transition: all 0.5s;
+}
+#line-ups div div a img {
+  max-width: 888px;
+  max-height: 500px;
+  width: 100%;
+  transition: all 0.5s;
+  border: solid 2px black;
+}
+#line-ups div div a img:hover {
+  transform: scale(1.06);
+}
+#line-ups div div:hover {
+  background-color: #494949;
+}
+
+/* Variables */
+/* LISTA COLORES*/
+/* Extends */
+header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mixin*/
+#guia h2 {
+  color: black;
+  background-color: white;
+  border-top: #056CF2 3px solid;
+  border-bottom: #056CF2 3px solid;
+  padding: 1em;
+  margin: 1em auto 4px auto;
+}
+#guia div {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  #guia div {
+    display: block;
+  }
+}
+#guia div div {
+  background-image: url(../images/bg-blue.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 1em 2em 1em 2em;
+  padding: 2em 2%;
+}
+@media (max-width: 767px) {
+  #guia div div {
+    margin: 1em auto;
+  }
+}
+#guia div p {
+  font-size: 1.2em;
+  color: white;
+}
+
+/*youtubers*/
+/* Extends */
+header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Variables */
+/* LISTA COLORES*/
+/*Mixin*/
+#youtubers h2 {
+  color: white;
+  background-color: #056CF2;
+  border-top: white 3px solid;
+  border-bottom: white 3px solid;
+  padding: 1em;
+}
+#youtubers div {
+  margin: 0 auto;
+}
+#youtubers div div {
+  padding: 1em;
+  margin-top: 2em;
+  max-width: 500px;
+}
+#youtubers div div div {
+  background-color: rgba(38, 62, 197, 0.9);
+}
+#youtubers div div div img {
+  border: 3px black solid;
+  border-radius: 10px;
+}
+#youtubers div div div .card-body {
+  border: 3px black solid;
+  border-radius: 10px;
+}
+#youtubers div div div .card-body h3 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+#youtubers div div div .card-body div {
+  text-align: center;
+}
+#youtubers div div div div {
+  padding: 10px;
+  background-color: #056CF2;
+}
+#youtubers div div div div a {
+  margin: 2px;
+}
+#youtubers div div div div a img {
+  border: 2px white solid;
+  background-color: black;
+  border-radius: 25%;
+  width: 30%;
+  padding: 3px;
+  transition: all 0.2s;
+}
+#youtubers div div div div a img:hover {
+  background-color: #4d4d4d;
+}
+
+/*Footer*/
+/* Extends */
+header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Variables */
+/* LISTA COLORES*/
+/*Mixin*/
+footer {
+  background-color: rgba(38, 62, 197, 0.9);
+}
+
+/* Boton ir arriba*/
+.go-top-btn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #435fff;
+  border: gray 2px solid;
+  border-radius: 50%;
+  padding: 10px;
+  bottom: 50px;
+  right: 30px;
+  z-index: 5;
+}
+
+/*# sourceMappingURL=style.css.map */

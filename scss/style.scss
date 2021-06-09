@@ -1,0 +1,20 @@
+body{
+    background-color: #000;
+}
+@import 'base/variables';
+@import 'base/colors';
+
+@import 'functions/extends';
+@import 'functions/mixins';
+
+@import 'secciones/h1';
+@import 'secciones/header';
+@import 'secciones/descripcion';
+@import 'secciones/habilidades';
+@import 'secciones/lineUps';
+@import 'secciones/guia';
+@import 'secciones/youtubers';
+@import 'secciones/footer';
+@import 'components/go-top-btn';
+
+

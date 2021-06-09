@@ -1,0 +1,35 @@
+/*H1*/
+@import '../base/variables';
+
+#titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 2em auto;
+    padding: 1em;
+    background-color: $mi-azul-principal;
+    border-top: white 3px solid;
+    border-bottom: white 3px solid;
+
+    
+    .arrow-gif{
+        max-width: 200px;
+        max-height: 200px;
+        position: relative;
+        top: -15px;
+    }
+
+    .spray-sova{
+        max-width: 540px;
+        max-height: 200px;
+    }
+
+    .drone{
+        max-width: 200px;
+        max-height: 200px;
+
+    }
+
+    
+}

@@ -1,0 +1,140 @@
+/* seccion 2 - Habilidades */
+@import '../functions/extends';
+@import '../base/variables';
+@import '../functions/mixins';
+
+#habilidades{
+    h2{
+        @include encabezados(black, white, black);        
+    }
+    
+    ul {
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+    
+    li{
+        width: 220px;
+        max-width: 220px;
+        height: 220px;
+        max-height: 220px;
+        @extend %flexbox;
+        box-shadow: 0 0 0 110px inset, 0 0 5px grey;
+        transition: box-shadow 1s;
+        float: left;
+        margin: 5px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &::after{
+            width: 90%;
+            height: 90%;
+            display: block;
+            white-space: pre;
+            font: 15pt 'sigmar one';
+            color: white;
+            border: 2px solid white;
+            text-align: center;
+            @extend %flexbox;
+            transition: opacity 1s .5s;
+        }
+
+        &:hover{
+            box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
+            transition: box-shadow 1s;
+
+            &::after{
+                opacity: 0;
+                transition: opacity .5s;
+            }
+        }
+    }
+}
+
+#proyectil-electrico{
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltebf4f748f87b2222/5eaf85dc4398082ffe24018f/TX_Sova_Q.png);
+    color: $color-habilidades;
+
+    &::after{
+        content: 'Proyectil eléctrico';
+    }
+}
+#proyectil-rastreador{
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5084114604f20525/5eaf85b108d37e6d82ef74ef/TX_Sova_E.png);
+    color: $color-habilidades;
+
+    &::after{
+        content: 'Proyectil rastreador';
+    }
+}
+#dron-buho{
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt74a6f56b5c37edb5/5eaf85b1f66b2515dea76b26/TX_Sova_C.png);
+    color: $color-habilidades;
+
+    &::after{
+        content: 'Dron buho';
+    }
+}
+#furia-del-cazador{
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5515bdb07fabe98/5eaf85b1b8a6356e4ddc1001/TX_Sova_X.png);
+    color: $color-habilidades;
+
+    &::after{
+        content: 'Furia del cazador';
+    }
+}
+
+
+/* Carousel*/
+.carousel-habilidades{
+    background-color: #000;
+    h5{
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 900;
+        background-color: rgba(32, 32, 32, 0.911);
+    }
+    p{
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 600;
+        font-size: 1em;
+        background-color: rgba(68, 68, 68, 0.808);
+        color: rgb(255, 255, 255);
+        margin-bottom: 2em;
+    }
+    video{
+        padding: 0 10%;
+        max-height: 675px;
+    }
+
+}
+
+/* Iconos en indicadores del carousel */
+.carousel-indicators [data-bs-target]:nth-child(1){
+    height: 30px!important;
+    padding: 1px!important;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltebf4f748f87b2222/5eaf85dc4398082ffe24018f/TX_Sova_Q.png)!important;
+    background-color: #000;
+    background-size: cover;
+}
+.carousel-indicators [data-bs-target]:nth-child(2){
+    height: 30px!important;
+    padding: 1px!important;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5084114604f20525/5eaf85b108d37e6d82ef74ef/TX_Sova_E.png)!important;
+    background-color: #000;
+    background-size: cover;
+}
+.carousel-indicators [data-bs-target]:nth-child(3){
+    height: 30px!important;
+    padding: 1px!important;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt74a6f56b5c37edb5/5eaf85b1f66b2515dea76b26/TX_Sova_C.png)!important;
+    background-color: #000;
+    background-size: cover;
+}
+.carousel-indicators [data-bs-target]:nth-child(4){
+    height: 30px!important;
+    padding: 1px!important;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5515bdb07fabe98/5eaf85b1b8a6356e4ddc1001/TX_Sova_X.png)!important;
+    background-color: #000;
+    background-size: cover;
+}

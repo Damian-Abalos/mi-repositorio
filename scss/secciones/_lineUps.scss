@@ -1,0 +1,44 @@
+/* Seccion 3 - Line ups*/
+@import '../functions/extends';
+@import '../functions/mixins';
+@import '../base/variables';
+
+#line-ups{
+    background-color: black;
+    h2{
+        @include encabezados(white, $mi-azul-principal, white);
+        margin-bottom: 1em;
+        border-bottom: rgb(255, 255, 255) 2px solid;
+        text-align: center;
+    }
+    div{
+        @extend %flexbox;
+        margin: 5px 0;
+        div{
+            @extend %flexbox;
+            background-color: $mi-gris;
+            padding: 0.5em 1em ;
+            border: black solid 3px;
+            transition: all 0.5s;
+            a{
+                @extend %flexbox;
+                img{
+                    max-width:888px ;
+                    max-height: 500px;
+                    width: 100%;
+                    transition: all 0.5s ;
+                    border: solid 2px rgb(0, 0, 0);
+    
+                    &:hover{
+                        transform: scale(1.06);
+                    }
+                }
+            }
+            
+            &:hover {
+                background-color: darken($mi-gris, 50%);
+            }
+        }
+        
+    }
+}

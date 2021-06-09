@@ -1,0 +1,39 @@
+/* Seccion 1 - Descripcion del agente*/
+
+@import '../base/variables';
+
+/*SOVA*/
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+#descripcion{
+    background-image: url(../images/fondo-descripcion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    div {
+        img{
+            width: 30em;
+        }
+        div{
+            
+            h2{
+                color: $color-texto;
+                margin: $margin-texto;
+            }
+            h3{
+                color: $color-texto;
+                margin: $margin-texto;
+            }
+            p{
+                color: $color-texto;
+                margin: $margin-texto;
+            }
+        }
+    
+    }
+}
+

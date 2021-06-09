@@ -1,0 +1,19 @@
+/*Mixin*/
+
+@mixin encabezados($color, $bg-color, $colorBorde){
+    color: $color;
+    background-color: $bg-color;
+    border-top: $colorBorde 3px solid;
+    border-bottom: $colorBorde 3px solid;
+    padding: 1em;
+    
+}
+
+
+
+
+
+
+
+
+
