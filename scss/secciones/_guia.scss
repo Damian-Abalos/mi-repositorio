@@ -13,19 +13,19 @@
         justify-content: space-around;
         margin: 0 auto;
 
-        @media (max-width: 767px) {
+        @media (max-width: 800px) {
             display: block;
             
         }
         div{
-            background-image: url(../images/bg-blue.jpg);
+            background-image: url(https://i.ibb.co/2ZL6Xg7/Blockchain.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             display: block;
             margin: 1em 2em 1em 2em;
             padding: 2em 2%;
 
-            @media (max-width: 767px) {
+            @media (max-width: 800px) {
                 margin: 1em auto;
             }
 

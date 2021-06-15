@@ -184,7 +184,7 @@ h2 {
 }
 
 #descripcion {
-  background-image: url(../images/fondo-descripcion.jpg);
+  background-image: url(https://i.ibb.co/Bz6j5b6/fondo-descripcion.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -295,7 +295,7 @@ h2 {
 .carousel-habilidades {
   background-color: #000;
 }
-.carousel-habilidades h5 {
+.carousel-habilidades h3 {
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
   background-color: rgba(32, 32, 32, 0.911);
@@ -417,20 +417,20 @@ header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div
   justify-content: space-around;
   margin: 0 auto;
 }
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   #guia div {
     display: block;
   }
 }
 #guia div div {
-  background-image: url(../images/bg-blue.jpg);
+  background-image: url(https://i.ibb.co/2ZL6Xg7/Blockchain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   margin: 1em 2em 1em 2em;
   padding: 2em 2%;
 }
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   #guia div div {
     margin: 1em auto;
   }
@@ -531,6 +531,9 @@ footer {
   bottom: 50px;
   right: 30px;
   z-index: 5;
+}
+.go-top-btn img {
+  width: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
