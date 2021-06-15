@@ -3,5 +3,63 @@
 @import '../base/variables';
 @import '../functions/mixins';
 footer{
-    background-color: $color-habilidades;
+    border-top: white solid 2px;
+    background-color: black;
+    padding: 2em;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+    .esrb{
+        margin-top: 2em;
+        background: rgb(0, 0, 0);
+        @extend %flexbox;
+        ul{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            margin: 0 1em;
+            padding: 0;
+            list-style: none;
+        }
+    }
+    .riot{
+        margin-top: 2em;
+        text-align: center;
+        img{
+            width: 40%;
+        }
+    }
+    .contacto{
+        margin-top: 2em;
+        text-align: center;
+        a{
+            color: #b1b1b1;
+            margin: 0 auto;
+            &:hover{
+                color: #fff;
+            }
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            margin: 1em auto;
+            padding: 0;
+            justify-content: center;
+            li a i{
+                font-size: 1.7rem;
+                color: #7E7E7E;
+                margin: 0 0.6rem;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
 }
+
+.row{
+    --bs-gutter-x: 0!important;
+}
+
+
+

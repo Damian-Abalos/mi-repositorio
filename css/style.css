@@ -7,7 +7,7 @@ body {
 /* LISTA COLORES*/
 /* LISTA COLORES*/
 /* Extends */
-#line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
+footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +45,7 @@ body {
 
 /*Header*/
 /* Extends */
-#line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
+footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,15 +198,18 @@ h2 {
 #descripcion div div h3 {
   color: white;
   margin: 1em 0;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4em;
 }
 #descripcion div div p {
   color: white;
   margin: 1em 0;
+  font-size: 1.1em;
 }
 
 /* seccion 2 - Habilidades */
 /* Extends */
-#line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
+footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, #habilidades li::after, #habilidades li, header nav div div ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -348,7 +351,7 @@ h2 {
 
 /* Seccion 3 - Line ups*/
 /* Extends */
-#line-ups div div a, #line-ups div div, #line-ups div, header nav div div ul li, #habilidades li, #habilidades li::after {
+footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, header nav div div ul li, #habilidades li, #habilidades li::after {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -396,7 +399,7 @@ h2 {
 /* Variables */
 /* LISTA COLORES*/
 /* Extends */
-header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
+footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -442,7 +445,7 @@ header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div
 
 /*youtubers*/
 /* Extends */
-header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
+footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -506,7 +509,7 @@ header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div
 
 /*Footer*/
 /* Extends */
-header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
+footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div, #line-ups div div, #line-ups div div a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -516,7 +519,60 @@ header nav div div ul li, #habilidades li, #habilidades li::after, #line-ups div
 /* LISTA COLORES*/
 /*Mixin*/
 footer {
-  background-color: rgba(38, 62, 197, 0.9);
+  border-top: white solid 2px;
+  background-color: black;
+  padding: 2em;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .esrb {
+  margin-top: 2em;
+  background: black;
+}
+footer .esrb ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 1em;
+  padding: 0;
+  list-style: none;
+}
+footer .riot {
+  margin-top: 2em;
+  text-align: center;
+}
+footer .riot img {
+  width: 40%;
+}
+footer .contacto {
+  margin-top: 2em;
+  text-align: center;
+}
+footer .contacto a {
+  color: #b1b1b1;
+  margin: 0 auto;
+}
+footer .contacto a:hover {
+  color: #fff;
+}
+footer .contacto ul {
+  display: flex;
+  list-style: none;
+  margin: 1em auto;
+  padding: 0;
+  justify-content: center;
+}
+footer .contacto ul li a i {
+  font-size: 1.7rem;
+  color: #7E7E7E;
+  margin: 0 0.6rem;
+}
+footer .contacto ul li a i:hover {
+  color: #fff;
+}
+
+.row {
+  --bs-gutter-x: 0!important;
 }
 
 /* Boton ir arriba*/
