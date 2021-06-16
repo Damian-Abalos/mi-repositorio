@@ -549,7 +549,7 @@ footer .contacto {
   text-align: center;
 }
 footer .contacto a {
-  margin: 0 auto;
+  margin: 2px auto;
 }
 footer .contacto ul {
   display: flex;
