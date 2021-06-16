@@ -549,11 +549,7 @@ footer .contacto {
   text-align: center;
 }
 footer .contacto a {
-  color: #b1b1b1;
   margin: 0 auto;
-}
-footer .contacto a:hover {
-  color: #fff;
 }
 footer .contacto ul {
   display: flex;
@@ -562,13 +558,22 @@ footer .contacto ul {
   padding: 0;
   justify-content: center;
 }
-footer .contacto ul li a i {
-  font-size: 1.7rem;
-  color: #7E7E7E;
+footer .contacto ul li a {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #7E7E7E;
+}
+footer .contacto ul li a:hover {
+  background-color: #fff;
+}
+footer .contacto ul li a img {
+  width: 30px;
+  height: 30px;
+  background-color: #7E7E7E;
   margin: 0 0.6rem;
 }
-footer .contacto ul li a i:hover {
-  color: #fff;
+footer .contacto ul li a img:hover {
+  background-color: #fff;
 }
 
 .row {
