@@ -9,10 +9,16 @@ $transition: 0.3s ease-out all;
 @import '../functions/extends';
 @import '../base/variables';
 
-header nav{
+header{
+  position: relative;
+  height: 8rem;
+  nav{
     background-color: #000000;
     color: rgb(255, 255, 255);
     border-bottom: black 2px solid;
+    position: fixed!important;
+    width: 100%!important;
+    z-index: 1000;
     div {
         a img{
             max-width: 300px;
@@ -137,6 +143,9 @@ header nav{
     }
     
 }
+
+} 
+    
 // .nav-link{
 //     color: white!important;
 // }

@@ -13,7 +13,7 @@
 <body>
     <style>
         body {
-  background-color: #2a5fff;
+  background-color: #081a50;
 }
 svg {
   position: absolute;

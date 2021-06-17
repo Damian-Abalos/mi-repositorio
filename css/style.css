@@ -53,10 +53,17 @@ footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, #habilidade
 
 /* Variables */
 /* LISTA COLORES*/
+header {
+  position: relative;
+  height: 8rem;
+}
 header nav {
   background-color: #000000;
   color: white;
   border-bottom: black 2px solid;
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1000;
 }
 header nav div a img {
   max-width: 300px;
@@ -549,7 +556,12 @@ footer .contacto {
   text-align: center;
 }
 footer .contacto a {
+  color: #b1b1b1;
   margin: 2px auto;
+  font-size: 1.2em;
+}
+footer .contacto a:hover {
+  color: white;
 }
 footer .contacto ul {
   display: flex;
@@ -558,17 +570,11 @@ footer .contacto ul {
   padding: 0;
   justify-content: center;
 }
-footer .contacto ul li a {
-  padding: 5px;
-  border-radius: 50%;
-  background-color: #7E7E7E;
-}
-footer .contacto ul li a:hover {
-  background-color: #fff;
-}
 footer .contacto ul li a img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 30%;
   background-color: #7E7E7E;
   margin: 0 0.6rem;
 }
@@ -578,6 +584,62 @@ footer .contacto ul li a img:hover {
 
 .row {
   --bs-gutter-x: 0!important;
+}
+
+#body-contacto {
+  color: #ffffff;
+  background-color: #081a50;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.form-row input[type=text],
+.form-row input[type=email],
+.form-row input[type=radio] {
+  background-color: #fff;
+  border: 1px solid #D6D9DC;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin: 16px 6px;
+}
+
+.form-row input[type=text]:invalid,
+.form-row input[type=email]:invalid {
+  border: red;
+  color: red;
+  box-shadow: none;
+}
+
+textarea {
+  width: 100%;
+}
+
+.div-enviar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#enviar {
+  margin-top: 2em;
+  width: 50%;
+  height: 100%;
 }
 
 /* Boton ir arriba*/

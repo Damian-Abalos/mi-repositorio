@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body-contacto{
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="radio"]{
+    background-color: #fff;
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+
+}
+
+.form-row label{
+    margin: 16px 6px;
+
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid{
+    border: red;
+    color: red;
+    box-shadow: none;
+}
+textarea{
+    width: 100%;
+}
+.div-enviar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#enviar{
+    margin-top: 2em;
+    width: 50%;
+    height: 100%;
+}

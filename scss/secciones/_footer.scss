@@ -33,7 +33,12 @@ footer{
         margin-top: 2em;
         text-align: center;
         a{
+            color: #b1b1b1;
             margin: 2px auto;
+            font-size: 1.2em;
+            &:hover{
+                color: white;
+            }
         }
         ul{
             display: flex;
@@ -41,23 +46,16 @@ footer{
             margin: 1em auto;
             padding: 0;
             justify-content: center;
-            li a{
+            li a img{
+                width: 40px;
+                height: 40px;
                 padding: 5px;
-                border-radius: 50%;
+                border-radius: 30%;
                 background-color: #7E7E7E;
+                margin: 0 0.6rem;
                 &:hover{
                     background-color: #fff;
                 }
-                img{
-                    width: 30px;
-                    height: 30px;
-                    background-color: #7E7E7E;
-                    margin: 0 0.6rem;
-                    &:hover{
-                        background-color: #fff;
-                    }
-                }
-             
             }
         }
     }
