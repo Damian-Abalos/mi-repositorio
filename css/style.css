@@ -570,15 +570,48 @@ footer .contacto ul {
   padding: 0;
   justify-content: center;
 }
-footer .contacto ul li a img {
-  width: 40px;
-  height: 40px;
+footer .contacto ul li:nth-child(1) a img {
+  width: 30px;
+  height: 30px;
   padding: 5px;
   border-radius: 30%;
   background-color: #7E7E7E;
   margin: 0 0.6rem;
 }
-footer .contacto ul li a img:hover {
+footer .contacto ul li:nth-child(1) a img:hover {
+  background-color: #fff;
+}
+footer .contacto ul li:nth-child(2) a img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 30%;
+  background-color: #7E7E7E;
+  margin: 0 0.6rem;
+}
+footer .contacto ul li:nth-child(2) a img:hover {
+  background-color: #fff;
+}
+footer .contacto ul li:nth-child(3) a img {
+  width: 34px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 30%;
+  background-color: #7E7E7E;
+  margin: 0 0.6rem;
+}
+footer .contacto ul li:nth-child(3) a img:hover {
+  background-color: #fff;
+}
+footer .contacto ul li:nth-child(4) a img {
+  width: 27px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 30%;
+  background-color: #7E7E7E;
+  margin: 0 0.6rem;
+}
+footer .contacto ul li:nth-child(4) a img:hover {
   background-color: #fff;
 }
 

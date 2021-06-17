@@ -46,17 +46,28 @@ footer{
             margin: 1em auto;
             padding: 0;
             justify-content: center;
-            li a img{
-                width: 40px;
-                height: 40px;
-                padding: 5px;
-                border-radius: 30%;
-                background-color: #7E7E7E;
-                margin: 0 0.6rem;
-                &:hover{
-                    background-color: #fff;
+            li:nth-child(1){
+                a img{
+                    @include iconosRedes(30px, 30px)
                 }
             }
+            li:nth-child(2){
+                a img{
+                    @include iconosRedes(30px, 30px)
+                }
+            }
+            li:nth-child(3){
+                a img{
+                    @include iconosRedes(34px, 30px)
+                }
+            }
+            li:nth-child(4){
+                a img{
+                    @include iconosRedes(27px, 30px)
+                }
+            }
+                
+            
         }
     }
 }
