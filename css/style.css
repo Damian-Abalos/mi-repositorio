@@ -675,6 +675,30 @@ textarea {
   height: 100%;
 }
 
+/*Mixin*/
+.body-maps {
+  background-color: #081a50;
+}
+.body-maps h1 {
+  color: black;
+  background-color: white;
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
+  padding: 1em;
+  font-family: "Orbitron", sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+.body-maps #line-up-maps div {
+  margin: 1em 0;
+  padding: 1em;
+  height: 350px;
+}
+.body-maps #line-up-maps div iframe {
+  width: 100%;
+  height: 100%;
+}
+
 /* Boton ir arriba*/
 .go-top-btn {
   position: fixed;
