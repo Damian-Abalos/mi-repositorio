@@ -278,6 +278,8 @@ footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, #habilidade
 }
 #proyectil-electrico::after {
   content: "Proyectil eléctrico";
+  font-family: "Orbitron", sans-serif !important;
+  font-size: 1em !important;
 }
 
 #proyectil-rastreador {
@@ -286,6 +288,8 @@ footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, #habilidade
 }
 #proyectil-rastreador::after {
   content: "Proyectil rastreador";
+  font-family: "Orbitron", sans-serif !important;
+  font-size: 1em !important;
 }
 
 #dron-buho {
@@ -294,6 +298,8 @@ footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, #habilidade
 }
 #dron-buho::after {
   content: "Dron buho";
+  font-family: "Orbitron", sans-serif !important;
+  font-size: 1em !important;
 }
 
 #furia-del-cazador {
@@ -302,6 +308,8 @@ footer .esrb, #line-ups div div a, #line-ups div div, #line-ups div, #habilidade
 }
 #furia-del-cazador::after {
   content: "Furia del cazador";
+  font-family: "Orbitron", sans-serif !important;
+  font-size: 1em !important;
 }
 
 /* Carousel*/
@@ -429,6 +437,7 @@ footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after,
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  padding: 0 1em;
 }
 @media (max-width: 800px) {
   #guia div {
@@ -441,7 +450,7 @@ footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after,
   background-size: cover;
   display: block;
   margin: 1em 2em 1em 2em;
-  padding: 2em 2%;
+  padding: 2em 5%;
 }
 @media (max-width: 800px) {
   #guia div div {
@@ -451,6 +460,7 @@ footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after,
 #guia div p {
   font-size: 1.2em;
   color: white;
+  text-align: justify;
 }
 #guia div p span {
   background-color: #056cf2;
