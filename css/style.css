@@ -489,7 +489,7 @@ footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after,
 }
 #youtubers div div {
   padding: 1em;
-  margin-top: 2em;
+  margin: 2em 0;
   max-width: 500px;
 }
 #youtubers div div div {
