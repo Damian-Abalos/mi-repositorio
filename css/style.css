@@ -213,6 +213,9 @@ h2 {
   margin: 1em 0;
   font-size: 1.1em;
 }
+#descripcion div div p span {
+  background-color: #3e7ad9;
+}
 
 /* seccion 2 - Habilidades */
 /* Extends */
@@ -448,6 +451,9 @@ footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after,
 #guia div p {
   font-size: 1.2em;
   color: white;
+}
+#guia div p span {
+  background-color: #056cf2;
 }
 
 /*youtubers*/
