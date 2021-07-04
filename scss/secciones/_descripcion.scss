@@ -8,6 +8,9 @@ h2{
     font-family: 'Orbitron', sans-serif;
     font-size: 3em;
     font-weight: 900;
+    @media (max-width: 800px) {
+        font-size: 2em;
+    }
 }
 
 #descripcion{
@@ -19,7 +22,10 @@ h2{
             width: 30em;
         }
         div{
-            
+            background-color: #000000a3;
+            padding: 0.5em;
+            border-radius: 1em;
+            margin: 1em 0;
             h2{
                 color: $color-texto;
                 margin: $margin-texto;

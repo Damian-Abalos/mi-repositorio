@@ -189,6 +189,11 @@ h2 {
   font-size: 3em;
   font-weight: 900;
 }
+@media (max-width: 800px) {
+  h2 {
+    font-size: 2em;
+  }
+}
 
 #descripcion {
   background-image: url(https://i.ibb.co/Bz6j5b6/fondo-descripcion.jpg);
@@ -197,6 +202,12 @@ h2 {
 }
 #descripcion div img {
   width: 30em;
+}
+#descripcion div div {
+  background-color: #000000a3;
+  padding: 0.5em;
+  border-radius: 1em;
+  margin: 1em 0;
 }
 #descripcion div div h2 {
   color: white;
@@ -489,7 +500,7 @@ footer .esrb, header nav div div ul li, #habilidades li, #habilidades li::after,
 }
 #youtubers div div {
   padding: 1em;
-  margin: 1em 0;
+  margin: 1em auto;
   max-width: 500px;
 }
 #youtubers div div div {
